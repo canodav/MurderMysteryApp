@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "actNumber": 0,
+        "actName": "Introduction",
+        "characterStories": {
+            "id": 1,
+            "character": {
+                "id": 1,
+                "player": {
+                    "id": 1,
+                    "name": "David",
+                    "description": "descripcion",
+                    "id_admin": false
+                },
+                "name": "Character 1",
+                "description": "Character 1 desc",
+                "characterIntroductionStory": {
+                    "id": 0,
+                    "story": "Guapo"
+                }
+            }
+        }
+
+    },
+    "story": "Guapo",
+    "extraInfo": "aa",
+    }
+]
