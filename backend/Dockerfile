@@ -1,7 +1,5 @@
 FROM node:16-alpine
 
-RUN npm install -g ts-node
-
 RUN mkdir -p /usr/src/app
 
 WORKDIR /usr/src/app
@@ -14,5 +12,4 @@ RUN npm install
 
 EXPOSE 3000
 
-CMD [ "npm", "start" ]
-
+CMD [ "npm", "run", "start" ]

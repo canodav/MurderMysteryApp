@@ -1,4 +1,4 @@
-import { Game, Act } from "../types";
+import { Game } from "../interfaces/game";
 
 
 export const createGame = (): Game => {
