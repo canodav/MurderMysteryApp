@@ -1,5 +1,5 @@
-import { Act } from "./act";
-import { Character } from "./character";
+import { Act } from "../act/act.interface";
+import { Character } from "../character/character.interface";
 export interface Game{
     id: number,
     title: string,

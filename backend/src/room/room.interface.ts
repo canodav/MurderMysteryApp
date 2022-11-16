@@ -1,5 +1,5 @@
-import { User } from "./user";
-import { Game } from "./game";
+import { User } from "../user/user.interface";
+import { Game } from "../game/game.interface";
 export interface Room{
     id: number;
     players: Array<User>;

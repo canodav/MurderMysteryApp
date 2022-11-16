@@ -1,448 +1,445 @@
 {
-    "0" :{  
-        "id": 0,
-        "name": "Powar and Greede",
-        "characters": [
-            {
-                "id": 0,
-                "name": "Denise N. Dayer",
-                "description": "Denise es una joven actriz que aún no ha recibido el reconocimiento que se merece. Pero todo es cuestión de tiempo dado su obvio talento y su gran belleza. Para estar cerca de la acción, encontró un trabajo en los Estudios Powar como ayudante de producción, trabajando así con los más importantes directores de la Industria Cinematográfica, destacando Seldom V. Lloyd y Phil M. Archer. Denise ha demostrado poseer una notable aptitud para dirigir.",
-                "characterIntroductionStory": " TODO: Add story"
-            },
-            {
-                "id": 1,
-                "name": "Heidi Voltaje",
-                "description": "Es una de las más recientes estrellas de los Estudios Powar, descubierta por el mismo W. Anton Powar. Empezó realizando un pequeño papel en una reciente película de Powar, \"Lay of the Land\". Aún así los aficionados al cine de todo el país quedaron maravillados. Un crítico comentó: \"Hi Voltaje y los Estudios Powar descubren un nuevo campo\". Su apodo es \"Hi\".",
-                "characterIntroductionStory": " TODO: Add story"
-            },
-            {
-                "id": 2,
-                "name": "Ivonde B. Alhone",
-                "description": "Una actriz nacida en Suecia, destinada al éxito por su gran belleza y su innata habilidad para la interpretación. Sel U. Lloyd la descubrió en \"War and Pizza\", una barata producción italiana. La llevó a los EE.UU. y le dio el papel principal en \"Daze of Wynan Rosas\" con Savoy R. Fayre. Es una de las más encantadoras estrellas de Hollywood.",
-                "characterIntroductionStory": " TODO: Add story"
-            },
-            {
-                "id": 3,
-                "name": "Hackford Ryder",
-                "description": "Sus amigos le llaman \"Hack\". Es uno de los mejores guionistas de Hollywood. Ha escrito varios guiones magníficos, destacando \"Goddess\", basado en la vida de Sola Sivius estrella del cine mudo. Saltar de una vida pobre y bohemia a la riqueza y la fama, no ha afectado a Hack. Sigue siendo el mismo chico práctico y realista que era antes de llegar a Hollywood.",
-                "characterIntroductionStory": " TODO: Add story"
-            },
-            {
-                "id": 4,
-                "name": "Savoy R. Fayre",
-                "description": "Por su puro y directo acento, su elegante atractivo y su cortesía británica, es uno de los galanes favoritos de Hollywood. Se dio a conocer con su interpretación de Amold en el clásico \"The Scarlet Pimp, Amold\"; pero su definitivo salto a la fama fue con el papel de mayordomo en la versión cinematográfica de \"The Butler Diddit. Savoy es cazador y tiene una excelente puntería, además de ser buen jugador de golf.",
-                "characterIntroductionStory": " TODO: Add story"
-            },
-            {
-                "id": 5,
-                "name": "Seldom V. Lloyd",
-                "description": "Sus amigos íntimos le llaman \"Sel\". Es uno de los mejores directores de Hollywood y le avala un extenso currículum de éxitos cinematográficos. Su prestigio es tan grande que actores y actrices compiten por trabajar con él. Sus películas galordonadas \"Daze of Wynan Rosas\", \"Tequila Mockingbird\" y \"The Butler, Diddit\" supusieron para Ivonde B. Alohne y para Mellisa Ann Greede el salto al estrellato.",
-                "characterIntroductionStory": " TODO: Add story"
-            },
-            {
-                "id": 6,
-                "name": "Stuart Dyron",
-                "description": "Sus fans le llaman \"Stu\". Dyron es la encarnación del actor alto, moreno y atractivo. Comenzó su carrera como doble, pero debido a su físico pronto empezó a interpretar papeles en westerns como, \"The Dark Side of the Horse\" y \"Treasure of C. Arram Audrey\". En su primer papel protagonista, Dyron actuaba como co-protagonista con Mellisa Ann Greede en \"Tequila Mockingbird\".",
-                "characterIntroductionStory": " TODO: Add story"
-            },
-            {
-                "id": 7,
-                "name": "Tatyana \"Tat\" Eltale",
-                "description": "El público la conoce como \"Tat\". Siendo una famosa actriz, se retiró para convertirse en comentarista de páginas sociales. Recientemente le han ofrecido un programa en la radio. En Hollywood, todo el mundo lamentó su decisión de abandonar su carrera como actriz. Sin embargo, Tatyana dijo una vez: \"Soy comentarista de páginas sociales en primer lugar y actriz en segundo\".",
-                "characterIntroductionStory": " TODO: Add story"
-            }
-        ],
-        "description": "test",
-        "acts": [
-            {
-                "id": 0,
-                "actNumber": 1,
-                "title": "Acto 1",
-                "characterStories": [
-                    {
-                        "name": "Denise N. Dayer",
-                        "character_id": 0,
-                        "facts": [
-                            {
-                                "shortText": "Parecido con Powar",
-                                "text": "No te sorprenderá saber que hay cierto, aunque apenas perceptible, parecido entre Powar y tú.",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Llevas \"Oblivion\"",
-                                "text": "Por alguna razón llevas \"Oblivion\", el perfume que Powar regaló a Mallisa y a Heidi, pero intentas tapar su aroma con otro olor.",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Powar contrató a Heeves después de ver la actuación de Savoy",
-                                "text": "Powar contrató a Heeves después de ver la actuación de Savoy como mayordomo en \"The Butler Diddit\". Recuerdas que Powar dijo: \"Si encontrara un sirviente que valiera la mitad nque el mayordomo que interpretó Savoy en la película, lo contrataría al instante. Por supuesto, en la película, el mayordomo era realmente, el asesino.\"",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Flirteo de Stu Dyron",
-                                "text": "Es bastante sabido el que Stu Dyron no puede evitar flirtear con mujeres, especialmente jóvenes actrices de Powar. Empezó con Tat, quien era la anterior amante de Powar antes de que Mallisa llegara y ahora continua con Heidi. Stu no las puede dejar solas. Powar se enfurecía constantemente por lo que él consideraba una intromisión de Stu.",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Retiro de Tat y su relacion con Mallisa",
-                                "text": "Tat anunció su retirada como actriz seis meses antes de la muerte de Mallisa. Corría el rumor de que Tat bebía mucho y tenía dificultad en recordar sus lineas al interpretar, aunque tu te preguntes si Mallisa no estaría detrás de la mayoría de esos rumores. Todo lo que Tat te dijo sobre su retiro fue: \"Ella ha ganado la primera batalla, pero la guerra todavía no ha terminado.\"",
-                                "privateFact": false
-                            }
-                        ],
-                        "extraInfo": ""
-                    },
-                    {
-                        "name": "Hackford Ryder",
-                        "character_id": 3,
-                        "facts": [
-                            {
-                                "shortText": "Mala relacion con Powar",
-                                "text": "Has estallado en varias ocasiones ante los viles e inhumanos métodos que utiliza Powar. En esos momentos sueles llamar a tu abogado para ver si te puede librar del contrato que te une a Powar. Siempre reccionas igual cuando te dice que no puede hacer nada. Te vuelves loco.",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Guion basado en la muerte de Mallisa",
-                                "text": "La muerte de Mallisa Ann Greede te afectó enormemente. Habías seguido su carrera con gran interés y cuando te enteraste de su muerte pensaste en la idea de escribir un guión basado en su carrera. Llevas contigo un recorte de periódico que habla de su muerte y debes compartir su contenido con el grupo en este acto. (Está marcado como \"Hack-Acto 1)\"",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Powar descubrió a Mallisa trabajando en una tienda de caramelos",
-                                "text": "Fue la historia de cómo Powar descubrió a Mallisa lo que primero te atrajo de ella. Mallisa estaba trabajando en una tienda de caramelos en Moosgoloosa, Minnesota. Cuando Powar la vió le preguntó si querría aparecer en alguna película. Se cuenta que ella dijo: \"¡Cielos! Mister. Haría cualquier cosa por aparecer en una película.\"",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Parentesco de Denise con Powar",
-                                "text": "Cuando el tema salga a relucir debes mencionar que Denise es en realidad, la sobrina de Powar. Su padre, el hermano de Powar, era el coronel Wayne N. Powar y cuando murió era accionista mayoritario de los Estudios Cinematográficos Powar. W. Anton Powar quedó como administrador de sus acciones que heredará Denise cuando cumpla 30 años, dentro de 5. En caso de que Powar muriera, las acciones pasarían directamente a Denise.",
-                                "privateFact": false
-                            }
-                        ],
-                        "extraInfo": ""
-                    },
-                    {
-                        "name": "Heidi Voltaje",
-                        "character_id": 1,
-                        "facts": [
-                            {
-                                "shortText": "Usas el perfume que te regalo Powar: \"Oblivion\"",
-                                "text": "Usas un perfume que el propio Powar te regaló. Es muy caro. Su nombre es \"Oblivion\".",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Relación con Mallisa",
-                                "text": "Powar \"te descubrió\" a principios de Septiembre de 1935. Mallisa se subió por las paredes cuando se enteró.",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Sospecha sobre Stu Dyron por la muerte de Mallisa",
-                                "text": "Recuerdas la sospecha que cayó sobre Stu Dyron por la muerte de Mallisa. Ella murió en su dormitorio, parecía seguro que sería arrestado, pero rápidamente fue exculpado de cualquier sospecha. Él había estado rodando un western en el desierto por aquel entonces, y no estaba ni siquiera cerca de su bungalow, en el que Mallisa fue asesinada.",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Intento de flirteo de Powar a Ivonde",
-                                "text": "Cuando llegaste a Hollywood, en seguida supiste que Ivonde era la única entre las principales estrellas de Powar -Ivonde, Tat y Mallisa-, que no había tenido un asunto amoroso con Powar. Y no porque él no lo intentara. Tras su primer éxito en \"Daze of Wynan Rosas\", Powar acosaba desesperadamente a Ivonde, pero ella rechazaba todas sus proposiciones, repitiéndole, su ahora famosa frase: \"Quiero estar sola\". Sin embargo el rechazo no desalentaba a Powar, quien seguía intentándolo, enviándole flores y, de vez en cuando, joyas muy caras. Esto lo estuvo haciendo hasta que llegó Mallisa a la ciudad. Entonces todo se acabó.",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Papel en \"Powar and Greede\"",
-                                "text": "Tu vida ha sido muy excitante desde que Powar te descubrió en la barraca del Beso en la Feria del Condado de Washboard, pero el momento cumbre de tu vida ha sido, por supuesto, la oportunidad de interpretar el papel de Mallisa Ann Greede en \"Powar and Greede\". La posibilidad de que la película haya sido destruída te espanta. Estás tan emocionada con tu papel que siempre llevas la portada del guión a cualquier parte contigo, para enseñarla. Deberás mostrarla al grupo en este acto. ",
-                                "privateFact": false
-                            }
-                        ],
-                        "extraInfo": ""
-                    },
-                    {
-                        "name": "Ivonde B. Alhone",
-                        "character_id": 2,
-                        "facts": [
-                            {
-                                "shortText": "2 años sin pelicula",
-                                "text": "Hasta tu papel en \"Powar and Greede\", has estado 2 años sin hacer ninguna película. Esto es debido, por supuesto, a la maliciosa influencia de Mallisa",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Resentimineto público hacia Mallisa",
-                                "text": "Has sido algo bocazas con tu resentimiento hacia Mallisa.",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Mallisa con los hombres",
-                                "text": "Fue sencillamente horrible la forma en que murió Mallisa Ann Greede, pero después de todo, ella había pasado la mejor parte de su vida con hombres en la cama, y lo más apropiado era que muriera en la cama de un hombre.",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Savoy cazador",
-                                "text": "Has oído que Savoy es un cazador pero nunca has visto ningún trofeo típico de caza en su casa. Una ve: le preguntaste por ellos, te miró con una cruel y burlona sonrisa. y te contestó: \"Sólo hay un trofeo que merece la pena tener en la pared. El último burro. Tú lo conoces tan bien como yo\",",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Caida de Tat y reemplazo por Mallisa",
-                                "text": "Siempre has disfrutado con la columna de cotilleos de Tat, pero te ha sorprendido lo dura que ha sido con Powar, quién después de todo la convirtió en una estrella, y con Mellisa, que aunque lo cierto es que es un poco latosa, es simplemente una nueva chica en la ciudad. Sin embargo, puedes entender los sentimientos de Tat. Antes de que Mallisa apareciera, Tat era una de las actuales estrellas de moda de los Estudios Cinematográficos Powar y disfrutaba de una íntima y gratificante vida junto a Powar. Todo eso terminó cuando Mallisa apareció en escena.",
-                                "privateFact": false
-                            }
-                        ],
-                        "extraInfo": ""
-                    },
-                    {
-                        "name": "Savoy R. Fayre",
-                        "character_id": 4,
-                        "facts": [
-                            {
-                                "shortText": "Tienes una magnífica colección de rifles de alta potencia.",
-                                "text": "Colección de rifles de alta potencia.",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Único trofeo que merece la pena tener en la pared",
-                                "text": "Una vez le dijiste a Ivonde que el único trofeo de caza que merecía la pena colgar en la pared era una bestia que ella conocía, \"Un asno\".",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Relacion de Ivonde con Mallisa",
-                                "text": "Aunque nadie estaba feliz por la muerte de Mallisa Ann Greede, había por lo menos una actriz que no estaba apenada por ello. Ivonde había expresado con frecuencia, resentimiento por la rápida ascensión a la fama de Mallisa. Después de la aparición de Mellisa en \"The Thick Man\" junto a ella, Ivonde dijo: \"Esa pequeña vibora piensa que puede tomar posesión de mi película. Yo soy la estrella. Ella no es nada más que una pelusa sobre la almohada de Powar\".",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Relacion de Tat con Mallisa",
-                                "text": "La reacción de Tat hacia Mellisa era similar a la de Ivonde. Tras encontrar a Mallisa entre los brazos de Powar y llevando una nueva pulsera de diamantes, Tat le dijo: \"Es algo maravilloso como Powar premia una buena actuación. He oído que puedes actuar muy bien\". Cuando se le dio a Mallisa el papel principal en \"Tequila Mockingbird\", un papel codiciado por ambas, Ivonde y Tat, los comentarios de Tat fueron indescriptibles.",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Problemas de Seldon con Powar",
-                                "text": "Powar era normalmente un hombre difícil para trabajar con él y Seldon, entre otros, tenía problemas con él. Siempre que Powar estaba en el plató donde Seldon estaba dirigiendo, había peleas. Una vez que Seldon gritó: \"Si no estuviera contratado, abandonaría\", Powar contestó firmemente: \"Pero tu estás bajo mi contrato y no me puedes abandonar, nunca\".",
-                                "privateFact": false
-                            }
-                        ],
-                        "extraInfo": ""
-                    },
-                    {
-                        "name": "Seldom V. Lloyd",
-                        "character_id": 5,
-                        "facts": [
-                            {
-                                "shortText": "Encargos sucion de Powar",
-                                "text": "Powar no siempre te ha dado el mejor material para realizar tu trabajo, una forma de recordarte que estás bajo su control. Sin embargo, cualquier cosa es mejor que las sucias películas que él te hizo dirigir para una audiencia privada cuando llegaste a Hollywood.",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Savoy cazador",
-                                "text": "Si, como el detective dijo, fue un fantástico tiro lo que mató a Powar por tu dinero, apostarías a que fue Savoy quien lo hizo. Él es un increíble tirador y tiene una magnífica colección de rifles de gran potencia.",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Discusión entre Powar y Stu",
-                                "text": "Hace poco oíste por casualidad una fuerte discusión entre Powar y Stu. Powar gritaba: \"Quita tus manos de encima de ella! Llevaste a la primera a la bebida y mataste a la segunda. ¡Quién sabe lo que harás con esta! ¡Es mía! ¡Aléjate de ella! Stu no contestó pero se fue con una maliciosa sonrisa en su cara.\"",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Complot contra Powar",
-                                "text": "Powar contrató por primera vez a sus guardaespaldas cuando comenzó el rodaje de \"Powar and Greede\". Él te dijo que su vida había sido amenazada, comentando en voz baja y con una mirada enérgica a Hack, \"hay más de un complot contra esta película\".",
-                                "privateFact": false
-                            }
-                        ],
-                        "extraInfo": ""
-                    }
-                ]
-            },
-            {
-                "id": 1,
-                "actNumber": 2,
-                "title": "Acto 2",
-                "characterStories": [
-                    {
-                        "name": "Denise N. Dayer",
-                        "character_id": 0,
-                        "facts": [
-                            {
-                                "shortText": "Chantaje de Hack a Powar",
-                                "text": "Hack hizo chantaje a Powar para que produjera \"Powar and Greede\" utilizando un oscuro secreto sobre Powar que él nunca te contaría. Hack insistió para que pudieras dirigir la película con él. Powar intentó con varios trucos evitar que la película empezara a hacerse. Hubo muchas peleas y discusiones pero los dos os entregasteis en cuerpo y alma a su realización.",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Destrucción de las cintas",
-                                "text": "Esta tarde te has enterado de que todas las copias de \"Powar and Greede\" han sido destruidas.",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Discusión entre Powar y Heidi",
-                                "text": "Aunque Heidi parecía estar destinada al éxito como protegida de Powar, tienes razones para creer que no todo era felicidad. La oiste, por casualidad, discutir una vez con Powar en el bar. Powar decía: \"Tú no trabajarás jamás para otro Estudio mientras yo viva!\". Él se marchó echando pestes pero volvió para decirle: \"y mantente alejada de Dyron\". Heidi estaba llorando.",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Manipulación de Mallisa a Powar",
-                                "text": "Mallisa era tan codiciosa y avara y, al menos al final, controlaba de tal manera a Powar, que parece mentira que nadie la matara antes. Ella advirtió a Powar que Ivonde y Tat estaban fuera de su alcance, amenazándole con negarle sus favores si le sorprendía mirándolas, o incluso peor, dándoles un papel en alguna película. \"Quizá un papel secundario\", concedió arrogante. Te preguntas con frecuencia como se las arreglaba Mallisa para controlar a Powar de esa manera.",
-                                "privateFact": false
-                            }
-                        ],
-                        "extraInfo": ""
-                    },
-                    {
-                        "name": "Hackford Ryder",
-                        "character_id": 3,
-                        "facts": [
-                            {
-                                "shortText": "Asesinato de Powar a su hermano",
-                                "text": "Hiciste chantaje a Powar para que produjera \"Powar and Greede\". Denise no lo sabe, pero Powar asesinó a su padre para tener el control de todo el Estudio.",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Tensión en el rodaje con Powar",
-                                "text": "Powar intentó con varios trucos hacer que el rodaje de la película fuera difícil. Hubo muchas discusiones.",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Destrucción de las cintas",
-                                "text": "Esta tarde te has enterado de que todas las copias de \"Powar and Greede\" han sido destruídas.",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Discusión entre Powar y Heidi",
-                                "text": "Aunque Heidi parecía estar destinada al éxito como protegida de Powar, tienes razones para creer que no todo era felicidad. La oiste, por casualidad, discutir una vez con Powar en el bar. Powar decía: \"Tú no trabajarás jamás para otro Estudio mientras yo viva!\". Él se marchó echando pestes pero volvió para decirle: \"y mantente alejada de Dyron\". Heidi estaba llorando.",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Reemplazo de Ivonde y Tat por Mallisa", 
-                                "text": "Entre otras cosas el rodaje de \"Powar and Greede\" consiguió que Ivonde regresara a la pantalla. Ella no había aparecido en ninguna película desde \"The Thick Man\", hace más de dos años, poco después de que Mallisa llegara a la ciudad. También Tat sólo hizo una película después de que Mallisa llegara, su película más conocida \"Goddess\". Era estupendo tenerlas a ambas de nuevo en la pantalla.",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Noche de la muerte de Mallisa", 
-                                "text": "La noche en que Mallisa fue asesinada es para tí un poco confusa, ya que estuviste la mayor parte de la noche de copas con unos amigos. Aún estabas con resaca cuando Savoy te llamó a la mañana siguiente y te dijo que lo había pasado en grande contigo. Aunque no recordabas con claridad la noche anterior, te atreverías a asegurar que Savoy no estuvo contigo, excepto en alguna ocasión después de medianoche.",
-                                "privateFact": false
-                            }
-                        ],
-                        "extraInfo": ""
-                    },
-                    {
-                        "name": "Heidi Voltaje",
-                        "character_id": 1,
-                        "facts": [
-                            {
-                                "shortText": "Discusión con Powar",
-                                "text": "Powar y tú, tuvisteis un enfrentamiento en el bar de los Estudios sobre tu deseo de aceptar otra oferta de trabajo y sobre tus citas con Stu. Quizás alguien os ha estado escuchando.",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Celos de Mallisa",
-                                "text": "Mallisa tenía celos por las atenciones que Powar te prestaba en las pocas semanas, desde que él te descubrió hasta la noche en que ella murió. Uno se pregunta si tu carrera hubiera sobrevivido si Mallisa no hubiera muerto.",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Tensión en el rodaje con Powar",
-                                "text": "Te sorprendia lo atento que estaba Powar durante el rodaje de \"Powar and Greede\". En algunos momentos parecía que iba a explotar pero la mayoría de las veces se contenía. Una vez comentaste esto a Denise y ella te contestó: \"Tiene que hacerlo\".",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Llamada sospechosa de Hack",
-                                "text": "Hace unos meses oiste por casualidad una conversación telefónica de Hack. Estaba enfadado, gritaba:\" ¡Así que no me puedo librar? ¿Qué he hecho, he vendido mi alma al diablo?\" Colgó, estrujó unos papeles que tenía en sus manos y los tiró al suelo. Cuando se fue los miraste. Era el contrato de los Estudios Cinematográficos Powar.",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Stu estaba por la ciudad la noche de la muerte de Mallisa",
-                                "text": "Hace poco dijiste que Stu estaba libre de toda sospecha por la muerte de Mallisa porque él estaba fuera de la ciudad por aquel entonces, pero ahora recuerdas haberle visto en la ciudad aquella noche, ya tarde, en una fiesta. Que tontería haberlo olvidado.",
-                                "privateFact": false
-                            }
-                        ],
-                        "extraInfo": ""
-                    },
-                    {
-                        "name": "Ivonde B. Alhone",
-                        "character_id": 2,
-                        "facts": [
-                            {
-                                "shortText": "Mallisa se desplomó mientras tomaba Champagne",
-                                "text": "Hace un año, después de la ceremonia en que se grabaron las huellas de Tat en el cemento, sobre las 7:00 de la tarde, Powar, Seldon y tú sacasteis a Mallisa inconsciente del camerino de Tat y siguiendo instrucciones de Powar, la llevasteis al bungalow de Stu. Mallisa se desplomó mientras tomaba Champagne.",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Guion de la escena de Mallisa y Stu",
-                                "text": "El rodaje de \"Powar and Greede\" fue por supuesto una experiencia inusual, el excelente guión de Hack lo convertía en suspense. Algunas de las escenas eran angustiosas, como la del dormitorio entre Stu (interpretado por Stu) y Mallisa (interpretada por Heidi). Tú tienes el guión y debes compartir esta escena con el grupo en este acto.",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Secreto de Tat a Mallisa",
-                                "text": "Después de la grabación de las huellas de Tat, cuando ella se cambió de traje os invitó a Powar, Seldon y a tí a que pasarais a su camerino. Os quedasteis sorprendidos al encontrar allí a Mallisa excitada como si acabara de realizar algo espectacular. Oiste cómo Tat le decía en secreto a Mallisa, \"No digas ni una palabra\". Mallisa sonrió perversamente y dijo: \"Por supuesto que no, querida\". Lo curioso es, que después de una o dos copas de Champagne, Mallisa se desplomó.",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Encuentro preocupante entre Hack y Denise",
-                                "text": "Esta tarde, sobre las 2:30, estabas tomando un bocadillo en el bar del Estudio cuando viste entrar a Hack corriendo hacia Denise que estaba sentada cerca de tf. Hack estaba pálido y con la mirada ida. Susurró algo al oído de Denise y ella también se puso pálida. Se fueron corriendo, juntos, sin decir palabra a nadie.",
-                                "privateFact": false
-                            }
-                        ],
-                        "extraInfo": ""
-                    },
-                    {
-                        "name": "Savoy R. Fayre",
-                        "character_id": 4,
-                        "facts": [
-                            {
-                                "shortText": "Critica de Mallisa",
-                                "text": "Mallisa criticó abiertamente tu actuación después de \"The Butler, Diddit\", diciendo que ella no volvería a trabajar contigo otra vez. ¡Qué zorra!",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Mentira sobre la noche de la muerte de Mallisa",
-                                "text": "Tú has dicho que pasaste con Hack toda la noche en que Mellisa fue acribillada a balazos. Es mentira, lo sabes.",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Reacio a la escena de muerte de Mallisa",
-                                "text": "Eras reacio a que se rodara una escena concreta de la película, la escena final en la que Mallisa era acribillada a balazos.",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Escena de la meurte de Mallisa",
-                                "text": "El rodaje de \"Powar and Greede\" fue una extraordinaria experiencia. En primer lugar, tú representaste tu propio papel, algo que encontraste difícil de hacer. En segundo lugar, cuando leiste el guión viste que tú mismo, hacías el papel de sospechoso de disparar a Mallisa. Expresaste tu disconformidad a Hack, pero él sólo dijo: \"Eres sencillamente uno más, Savoy\". En ese momento no te diste cuenta de lo que realmente quería decir con ello, pero lo averiguaste más tarde.",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Problemas de Seldon con Mallisa",
-                                "text": "El guión que Hack preparó para \"Powar and Greede\" te recordó sin embargo, lo rencorosa que podía ser Mallisa. Ella parecía tener influencias sobre Powar y usaba esto para favorecer su carrera a costa de otros. Powar te dijo que, después de \"Tequila Mockingbird\" ella no quería volver a actuar bajo la dirección de Seldon, argumentando que: \"Es demasiado estrecho de mente\". Seldon se enfureció cuando oyó estos comentarios.",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Conflicto en el rodaje entre Hack, Denise y Powar",
-                                "text": "Durante el rodaje de \"Powar and Greede\" recuerdas estar paseando, cuando al pasar por la sala de montaje oiste a Denise y Hack gritando a Powar: \"Has arruinado deliberadamente esa toma!\" Denise gritaba: \"Eso no te va a traer nada bueno\". Hack añadió: \"porque vamos a volver a hacer la toma\". Powar estaba en silencio pero apenas parecía arrepentido.",
-                                "privateFact": false
-                            }
-                        ],
-                        "extraInfo": ""
-                    },
-                    {
-                        "name": "Seldom V. Lloyd",
-                        "character_id": 5,
-                        "facts": [
-                            {
-                                "shortText": "Amenazas de Powar y vinculacion con la muerte de Mallisa",
-                                "text": "Powar te forzó a cooperar en \"Powar and Greede\" amenazándote con contar a la policía tu vinculación con la muerte de Mallisa. Esperemos que estos hechos no salgan a la luz.",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Desmayo de Mallisa",
-                                "text": "Hace un año, después de la grabación en cemento de las huellas de Tat, Powar, Ivonde y tú sacasteis a Mallisa inconsciente del camerino de Tat, serían las 7:00 de la tarde. Mallisa se desplomó mientras bebía champagne. Powar insistió para que la llevarais al bungalow de Stu.",
-                                "privateFact": true
-                            },
-                            {
-                                "shortText": "Conflictos en el rodaje",
-                                "text": "El rodaje de\"Powar and Greede\" fue una extraña experiencia para ti, apareciste más como actor que como director. Al principio dudaste del proyecto, pero Powar te persuadió para que lo aceptaras. Resultó divertido el que Denise y Hack, en vez de tú, fueran los que tuvieran que enfrentarse a los constantes conflictos con Powar. Ocurrieron muchas desgracias en el plató, y no todas debidas a la inexperiencia del director. Una vez se rodaron varias escenas sin película en las cámaras, cuando esto se descubrió, Denise se volvió hacia Powar y dijo: \"Te estoy avisando\", Powar pareció extraordinariamente manso y no dijo nada.",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Arrogancia de Mallisa y su conflicto con Savoy",
-                                "text": "Mallisa fue una de esas estrellas que no pudieron disfrutar el éxito. En un principio era fácil trabajar con ella, pero después de conseguir uno o dos papeles importantes, se volvió muy exigente y criticona con los otros actores, incluso con aquellos que tenían mucha más experiencia que ella. Después de \"The Butler, Diddit\", dijo a Powar, estando tu delante: \"No quiero trabajar nunca más con Savoy. Él es simplemente incapaz de estar a mi nivel\". Cuando se lo contaste a Savoy éste se enfureció.",
-                                "privateFact": false
-                            },
-                            {
-                                "shortText": "Conflicto de Mallisa con Tat",
-                                "text": "El año pasado después de la grabación de huellas de Tat -la noche en que murió Mallisa- fuiste invitado por Tat a tomar una copa de champagne en su camerino. Allí también estaban Ivonde, Powar y Mallisa. Los comentarios de Mallisa fueron realmente impropios. Ella insinuó que Tat había estado bebida toda la tarde y se maravillaba de que lo hubiera estado durante toda la ceremonia, Mallisa si que había bebido demasiado y se desplomó después de unas cuantas copas de más.",
-                                "privateFact": false
-                            }
-                            
-                        ],
-                        "extraInfo": ""
-                    }
-                ]
-            }
-        ]
-    }
+    "id": 0,
+    "name": "Powar and Greede",
+    "description": "test",
+    "characters": [
+        {
+            "id": 0,
+            "name": "Denise N. Dayer",
+            "description": "Denise es una joven actriz que aún no ha recibido el reconocimiento que se merece. Pero todo es cuestión de tiempo dado su obvio talento y su gran belleza. Para estar cerca de la acción, encontró un trabajo en los Estudios Powar como ayudante de producción, trabajando así con los más importantes directores de la Industria Cinematográfica, destacando Seldom V. Lloyd y Phil M. Archer. Denise ha demostrado poseer una notable aptitud para dirigir.",
+            "characterIntroductionStory": "TODO: Add story"
+        },
+        {
+            "id": 1,
+            "name": "Heidi Voltaje",
+            "description": "Es una de las más recientes estrellas de los Estudios Powar, descubierta por el mismo W. Anton Powar. Empezó realizando un pequeño papel en una reciente película de Powar, \"Lay of the Land\". Aún así los aficionados al cine de todo el país quedaron maravillados. Un crítico comentó: \"Hi Voltaje y los Estudios Powar descubren un nuevo campo\". Su apodo es \"Hi\".",
+            "characterIntroductionStory": " TODO: Add story"
+        },
+        {
+            "id": 2,
+            "name": "Ivonde B. Alhone",
+            "description": "Una actriz nacida en Suecia, destinada al éxito por su gran belleza y su innata habilidad para la interpretación. Sel U. Lloyd la descubrió en \"War and Pizza\", una barata producción italiana. La llevó a los EE.UU. y le dio el papel principal en \"Daze of Wynan Rosas\" con Savoy R. Fayre. Es una de las más encantadoras estrellas de Hollywood.",
+            "characterIntroductionStory": " TODO: Add story"
+        },
+        {
+            "id": 3,
+            "name": "Hackford Ryder",
+            "description": "Sus amigos le llaman \"Hack\". Es uno de los mejores guionistas de Hollywood. Ha escrito varios guiones magníficos, destacando \"Goddess\", basado en la vida de Sola Sivius estrella del cine mudo. Saltar de una vida pobre y bohemia a la riqueza y la fama, no ha afectado a Hack. Sigue siendo el mismo chico práctico y realista que era antes de llegar a Hollywood.",
+            "characterIntroductionStory": " TODO: Add story"
+        },
+        {
+            "id": 4,
+            "name": "Savoy R. Fayre",
+            "description": "Por su puro y directo acento, su elegante atractivo y su cortesía británica, es uno de los galanes favoritos de Hollywood. Se dio a conocer con su interpretación de Amold en el clásico \"The Scarlet Pimp, Amold\"; pero su definitivo salto a la fama fue con el papel de mayordomo en la versión cinematográfica de \"The Butler Diddit. Savoy es cazador y tiene una excelente puntería, además de ser buen jugador de golf.",
+            "characterIntroductionStory": " TODO: Add story"
+        },
+        {
+            "id": 5,
+            "name": "Seldom V. Lloyd",
+            "description": "Sus amigos íntimos le llaman \"Sel\". Es uno de los mejores directores de Hollywood y le avala un extenso currículum de éxitos cinematográficos. Su prestigio es tan grande que actores y actrices compiten por trabajar con él. Sus películas galordonadas \"Daze of Wynan Rosas\", \"Tequila Mockingbird\" y \"The Butler, Diddit\" supusieron para Ivonde B. Alohne y para Mellisa Ann Greede el salto al estrellato.",
+            "characterIntroductionStory": " TODO: Add story"
+        },
+        {
+            "id": 6,
+            "name": "Stuart Dyron",
+            "description": "Sus fans le llaman \"Stu\". Dyron es la encarnación del actor alto, moreno y atractivo. Comenzó su carrera como doble, pero debido a su físico pronto empezó a interpretar papeles en westerns como, \"The Dark Side of the Horse\" y \"Treasure of C. Arram Audrey\". En su primer papel protagonista, Dyron actuaba como co-protagonista con Mellisa Ann Greede en \"Tequila Mockingbird\".",
+            "characterIntroductionStory": " TODO: Add story"
+        },
+        {
+            "id": 7,
+            "name": "Tatyana \"Tat\" Eltale",
+            "description": "El público la conoce como \"Tat\". Siendo una famosa actriz, se retiró para convertirse en comentarista de páginas sociales. Recientemente le han ofrecido un programa en la radio. En Hollywood, todo el mundo lamentó su decisión de abandonar su carrera como actriz. Sin embargo, Tatyana dijo una vez: \"Soy comentarista de páginas sociales en primer lugar y actriz en segundo\".",
+            "characterIntroductionStory": " TODO: Add story"
+        }
+    ],
+    "acts": [
+        {
+            "id": 0,
+            "actNumber": 1,
+            "title": "Acto 1",
+            "characterStories": [
+                {
+                    "name": "Denise N. Dayer",
+                    "character_id": 0,
+                    "facts": [
+                        {
+                            "shortText": "Parecido con Powar",
+                            "text": "No te sorprenderá saber que hay cierto, aunque apenas perceptible, parecido entre Powar y tú.",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Llevas \"Oblivion\"",
+                            "text": "Por alguna razón llevas \"Oblivion\", el perfume que Powar regaló a Mallisa y a Heidi, pero intentas tapar su aroma con otro olor.",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Powar contrató a Heeves después de ver la actuación de Savoy",
+                            "text": "Powar contrató a Heeves después de ver la actuación de Savoy como mayordomo en \"The Butler Diddit\". Recuerdas que Powar dijo: \"Si encontrara un sirviente que valiera la mitad nque el mayordomo que interpretó Savoy en la película, lo contrataría al instante. Por supuesto, en la película, el mayordomo era realmente, el asesino.\"",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Flirteo de Stu Dyron",
+                            "text": "Es bastante sabido el que Stu Dyron no puede evitar flirtear con mujeres, especialmente jóvenes actrices de Powar. Empezó con Tat, quien era la anterior amante de Powar antes de que Mallisa llegara y ahora continua con Heidi. Stu no las puede dejar solas. Powar se enfurecía constantemente por lo que él consideraba una intromisión de Stu.",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Retiro de Tat y su relacion con Mallisa",
+                            "text": "Tat anunció su retirada como actriz seis meses antes de la muerte de Mallisa. Corría el rumor de que Tat bebía mucho y tenía dificultad en recordar sus lineas al interpretar, aunque tu te preguntes si Mallisa no estaría detrás de la mayoría de esos rumores. Todo lo que Tat te dijo sobre su retiro fue: \"Ella ha ganado la primera batalla, pero la guerra todavía no ha terminado.\"",
+                            "privateFact": false
+                        }
+                    ],
+                    "extraInfo": ""
+                },
+                {
+                    "name": "Hackford Ryder",
+                    "character_id": 3,
+                    "facts": [
+                        {
+                            "shortText": "Mala relacion con Powar",
+                            "text": "Has estallado en varias ocasiones ante los viles e inhumanos métodos que utiliza Powar. En esos momentos sueles llamar a tu abogado para ver si te puede librar del contrato que te une a Powar. Siempre reccionas igual cuando te dice que no puede hacer nada. Te vuelves loco.",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Guion basado en la muerte de Mallisa",
+                            "text": "La muerte de Mallisa Ann Greede te afectó enormemente. Habías seguido su carrera con gran interés y cuando te enteraste de su muerte pensaste en la idea de escribir un guión basado en su carrera. Llevas contigo un recorte de periódico que habla de su muerte y debes compartir su contenido con el grupo en este acto. (Está marcado como \"Hack-Acto 1)\"",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Powar descubrió a Mallisa trabajando en una tienda de caramelos",
+                            "text": "Fue la historia de cómo Powar descubrió a Mallisa lo que primero te atrajo de ella. Mallisa estaba trabajando en una tienda de caramelos en Moosgoloosa, Minnesota. Cuando Powar la vió le preguntó si querría aparecer en alguna película. Se cuenta que ella dijo: \"¡Cielos! Mister. Haría cualquier cosa por aparecer en una película.\"",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Parentesco de Denise con Powar",
+                            "text": "Cuando el tema salga a relucir debes mencionar que Denise es en realidad, la sobrina de Powar. Su padre, el hermano de Powar, era el coronel Wayne N. Powar y cuando murió era accionista mayoritario de los Estudios Cinematográficos Powar. W. Anton Powar quedó como administrador de sus acciones que heredará Denise cuando cumpla 30 años, dentro de 5. En caso de que Powar muriera, las acciones pasarían directamente a Denise.",
+                            "privateFact": false
+                        }
+                    ],
+                    "extraInfo": ""
+                },
+                {
+                    "name": "Heidi Voltaje",
+                    "character_id": 1,
+                    "facts": [
+                        {
+                            "shortText": "Usas el perfume que te regalo Powar: \"Oblivion\"",
+                            "text": "Usas un perfume que el propio Powar te regaló. Es muy caro. Su nombre es \"Oblivion\".",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Relación con Mallisa",
+                            "text": "Powar \"te descubrió\" a principios de Septiembre de 1935. Mallisa se subió por las paredes cuando se enteró.",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Sospecha sobre Stu Dyron por la muerte de Mallisa",
+                            "text": "Recuerdas la sospecha que cayó sobre Stu Dyron por la muerte de Mallisa. Ella murió en su dormitorio, parecía seguro que sería arrestado, pero rápidamente fue exculpado de cualquier sospecha. Él había estado rodando un western en el desierto por aquel entonces, y no estaba ni siquiera cerca de su bungalow, en el que Mallisa fue asesinada.",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Intento de flirteo de Powar a Ivonde",
+                            "text": "Cuando llegaste a Hollywood, en seguida supiste que Ivonde era la única entre las principales estrellas de Powar -Ivonde, Tat y Mallisa-, que no había tenido un asunto amoroso con Powar. Y no porque él no lo intentara. Tras su primer éxito en \"Daze of Wynan Rosas\", Powar acosaba desesperadamente a Ivonde, pero ella rechazaba todas sus proposiciones, repitiéndole, su ahora famosa frase: \"Quiero estar sola\". Sin embargo el rechazo no desalentaba a Powar, quien seguía intentándolo, enviándole flores y, de vez en cuando, joyas muy caras. Esto lo estuvo haciendo hasta que llegó Mallisa a la ciudad. Entonces todo se acabó.",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Papel en \"Powar and Greede\"",
+                            "text": "Tu vida ha sido muy excitante desde que Powar te descubrió en la barraca del Beso en la Feria del Condado de Washboard, pero el momento cumbre de tu vida ha sido, por supuesto, la oportunidad de interpretar el papel de Mallisa Ann Greede en \"Powar and Greede\". La posibilidad de que la película haya sido destruída te espanta. Estás tan emocionada con tu papel que siempre llevas la portada del guión a cualquier parte contigo, para enseñarla. Deberás mostrarla al grupo en este acto. ",
+                            "privateFact": false
+                        }
+                    ],
+                    "extraInfo": ""
+                },
+                {
+                    "name": "Ivonde B. Alhone",
+                    "character_id": 2,
+                    "facts": [
+                        {
+                            "shortText": "2 años sin pelicula",
+                            "text": "Hasta tu papel en \"Powar and Greede\", has estado 2 años sin hacer ninguna película. Esto es debido, por supuesto, a la maliciosa influencia de Mallisa",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Resentimineto público hacia Mallisa",
+                            "text": "Has sido algo bocazas con tu resentimiento hacia Mallisa.",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Mallisa con los hombres",
+                            "text": "Fue sencillamente horrible la forma en que murió Mallisa Ann Greede, pero después de todo, ella había pasado la mejor parte de su vida con hombres en la cama, y lo más apropiado era que muriera en la cama de un hombre.",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Savoy cazador",
+                            "text": "Has oído que Savoy es un cazador pero nunca has visto ningún trofeo típico de caza en su casa. Una ve: le preguntaste por ellos, te miró con una cruel y burlona sonrisa. y te contestó: \"Sólo hay un trofeo que merece la pena tener en la pared. El último burro. Tú lo conoces tan bien como yo\",",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Caida de Tat y reemplazo por Mallisa",
+                            "text": "Siempre has disfrutado con la columna de cotilleos de Tat, pero te ha sorprendido lo dura que ha sido con Powar, quién después de todo la convirtió en una estrella, y con Mellisa, que aunque lo cierto es que es un poco latosa, es simplemente una nueva chica en la ciudad. Sin embargo, puedes entender los sentimientos de Tat. Antes de que Mallisa apareciera, Tat era una de las actuales estrellas de moda de los Estudios Cinematográficos Powar y disfrutaba de una íntima y gratificante vida junto a Powar. Todo eso terminó cuando Mallisa apareció en escena.",
+                            "privateFact": false
+                        }
+                    ],
+                    "extraInfo": ""
+                },
+                {
+                    "name": "Savoy R. Fayre",
+                    "character_id": 4,
+                    "facts": [
+                        {
+                            "shortText": "Tienes una magnífica colección de rifles de alta potencia.",
+                            "text": "Colección de rifles de alta potencia.",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Único trofeo que merece la pena tener en la pared",
+                            "text": "Una vez le dijiste a Ivonde que el único trofeo de caza que merecía la pena colgar en la pared era una bestia que ella conocía, \"Un asno\".",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Relacion de Ivonde con Mallisa",
+                            "text": "Aunque nadie estaba feliz por la muerte de Mallisa Ann Greede, había por lo menos una actriz que no estaba apenada por ello. Ivonde había expresado con frecuencia, resentimiento por la rápida ascensión a la fama de Mallisa. Después de la aparición de Mellisa en \"The Thick Man\" junto a ella, Ivonde dijo: \"Esa pequeña vibora piensa que puede tomar posesión de mi película. Yo soy la estrella. Ella no es nada más que una pelusa sobre la almohada de Powar\".",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Relacion de Tat con Mallisa",
+                            "text": "La reacción de Tat hacia Mellisa era similar a la de Ivonde. Tras encontrar a Mallisa entre los brazos de Powar y llevando una nueva pulsera de diamantes, Tat le dijo: \"Es algo maravilloso como Powar premia una buena actuación. He oído que puedes actuar muy bien\". Cuando se le dio a Mallisa el papel principal en \"Tequila Mockingbird\", un papel codiciado por ambas, Ivonde y Tat, los comentarios de Tat fueron indescriptibles.",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Problemas de Seldon con Powar",
+                            "text": "Powar era normalmente un hombre difícil para trabajar con él y Seldon, entre otros, tenía problemas con él. Siempre que Powar estaba en el plató donde Seldon estaba dirigiendo, había peleas. Una vez que Seldon gritó: \"Si no estuviera contratado, abandonaría\", Powar contestó firmemente: \"Pero tu estás bajo mi contrato y no me puedes abandonar, nunca\".",
+                            "privateFact": false
+                        }
+                    ],
+                    "extraInfo": ""
+                },
+                {
+                    "name": "Seldom V. Lloyd",
+                    "character_id": 5,
+                    "facts": [
+                        {
+                            "shortText": "Encargos sucion de Powar",
+                            "text": "Powar no siempre te ha dado el mejor material para realizar tu trabajo, una forma de recordarte que estás bajo su control. Sin embargo, cualquier cosa es mejor que las sucias películas que él te hizo dirigir para una audiencia privada cuando llegaste a Hollywood.",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Savoy cazador",
+                            "text": "Si, como el detective dijo, fue un fantástico tiro lo que mató a Powar por tu dinero, apostarías a que fue Savoy quien lo hizo. Él es un increíble tirador y tiene una magnífica colección de rifles de gran potencia.",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Discusión entre Powar y Stu",
+                            "text": "Hace poco oíste por casualidad una fuerte discusión entre Powar y Stu. Powar gritaba: \"Quita tus manos de encima de ella! Llevaste a la primera a la bebida y mataste a la segunda. ¡Quién sabe lo que harás con esta! ¡Es mía! ¡Aléjate de ella! Stu no contestó pero se fue con una maliciosa sonrisa en su cara.\"",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Complot contra Powar",
+                            "text": "Powar contrató por primera vez a sus guardaespaldas cuando comenzó el rodaje de \"Powar and Greede\". Él te dijo que su vida había sido amenazada, comentando en voz baja y con una mirada enérgica a Hack, \"hay más de un complot contra esta película\".",
+                            "privateFact": false
+                        }
+                    ],
+                    "extraInfo": ""
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "actNumber": 2,
+            "title": "Acto 2",
+            "characterStories": [
+                {
+                    "name": "Denise N. Dayer",
+                    "character_id": 0,
+                    "facts": [
+                        {
+                            "shortText": "Chantaje de Hack a Powar",
+                            "text": "Hack hizo chantaje a Powar para que produjera \"Powar and Greede\" utilizando un oscuro secreto sobre Powar que él nunca te contaría. Hack insistió para que pudieras dirigir la película con él. Powar intentó con varios trucos evitar que la película empezara a hacerse. Hubo muchas peleas y discusiones pero los dos os entregasteis en cuerpo y alma a su realización.",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Destrucción de las cintas",
+                            "text": "Esta tarde te has enterado de que todas las copias de \"Powar and Greede\" han sido destruidas.",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Discusión entre Powar y Heidi",
+                            "text": "Aunque Heidi parecía estar destinada al éxito como protegida de Powar, tienes razones para creer que no todo era felicidad. La oiste, por casualidad, discutir una vez con Powar en el bar. Powar decía: \"Tú no trabajarás jamás para otro Estudio mientras yo viva!\". Él se marchó echando pestes pero volvió para decirle: \"y mantente alejada de Dyron\". Heidi estaba llorando.",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Manipulación de Mallisa a Powar",
+                            "text": "Mallisa era tan codiciosa y avara y, al menos al final, controlaba de tal manera a Powar, que parece mentira que nadie la matara antes. Ella advirtió a Powar que Ivonde y Tat estaban fuera de su alcance, amenazándole con negarle sus favores si le sorprendía mirándolas, o incluso peor, dándoles un papel en alguna película. \"Quizá un papel secundario\", concedió arrogante. Te preguntas con frecuencia como se las arreglaba Mallisa para controlar a Powar de esa manera.",
+                            "privateFact": false
+                        }
+                    ],
+                    "extraInfo": ""
+                },
+                {
+                    "name": "Hackford Ryder",
+                    "character_id": 3,
+                    "facts": [
+                        {
+                            "shortText": "Asesinato de Powar a su hermano",
+                            "text": "Hiciste chantaje a Powar para que produjera \"Powar and Greede\". Denise no lo sabe, pero Powar asesinó a su padre para tener el control de todo el Estudio.",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Tensión en el rodaje con Powar",
+                            "text": "Powar intentó con varios trucos hacer que el rodaje de la película fuera difícil. Hubo muchas discusiones.",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Destrucción de las cintas",
+                            "text": "Esta tarde te has enterado de que todas las copias de \"Powar and Greede\" han sido destruídas.",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Discusión entre Powar y Heidi",
+                            "text": "Aunque Heidi parecía estar destinada al éxito como protegida de Powar, tienes razones para creer que no todo era felicidad. La oiste, por casualidad, discutir una vez con Powar en el bar. Powar decía: \"Tú no trabajarás jamás para otro Estudio mientras yo viva!\". Él se marchó echando pestes pero volvió para decirle: \"y mantente alejada de Dyron\". Heidi estaba llorando.",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Reemplazo de Ivonde y Tat por Mallisa",
+                            "text": "Entre otras cosas el rodaje de \"Powar and Greede\" consiguió que Ivonde regresara a la pantalla. Ella no había aparecido en ninguna película desde \"The Thick Man\", hace más de dos años, poco después de que Mallisa llegara a la ciudad. También Tat sólo hizo una película después de que Mallisa llegara, su película más conocida \"Goddess\". Era estupendo tenerlas a ambas de nuevo en la pantalla.",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Noche de la muerte de Mallisa",
+                            "text": "La noche en que Mallisa fue asesinada es para tí un poco confusa, ya que estuviste la mayor parte de la noche de copas con unos amigos. Aún estabas con resaca cuando Savoy te llamó a la mañana siguiente y te dijo que lo había pasado en grande contigo. Aunque no recordabas con claridad la noche anterior, te atreverías a asegurar que Savoy no estuvo contigo, excepto en alguna ocasión después de medianoche.",
+                            "privateFact": false
+                        }
+                    ],
+                    "extraInfo": ""
+                },
+                {
+                    "name": "Heidi Voltaje",
+                    "character_id": 1,
+                    "facts": [
+                        {
+                            "shortText": "Discusión con Powar",
+                            "text": "Powar y tú, tuvisteis un enfrentamiento en el bar de los Estudios sobre tu deseo de aceptar otra oferta de trabajo y sobre tus citas con Stu. Quizás alguien os ha estado escuchando.",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Celos de Mallisa",
+                            "text": "Mallisa tenía celos por las atenciones que Powar te prestaba en las pocas semanas, desde que él te descubrió hasta la noche en que ella murió. Uno se pregunta si tu carrera hubiera sobrevivido si Mallisa no hubiera muerto.",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Tensión en el rodaje con Powar",
+                            "text": "Te sorprendia lo atento que estaba Powar durante el rodaje de \"Powar and Greede\". En algunos momentos parecía que iba a explotar pero la mayoría de las veces se contenía. Una vez comentaste esto a Denise y ella te contestó: \"Tiene que hacerlo\".",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Llamada sospechosa de Hack",
+                            "text": "Hace unos meses oiste por casualidad una conversación telefónica de Hack. Estaba enfadado, gritaba:\" ¡Así que no me puedo librar? ¿Qué he hecho, he vendido mi alma al diablo?\" Colgó, estrujó unos papeles que tenía en sus manos y los tiró al suelo. Cuando se fue los miraste. Era el contrato de los Estudios Cinematográficos Powar.",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Stu estaba por la ciudad la noche de la muerte de Mallisa",
+                            "text": "Hace poco dijiste que Stu estaba libre de toda sospecha por la muerte de Mallisa porque él estaba fuera de la ciudad por aquel entonces, pero ahora recuerdas haberle visto en la ciudad aquella noche, ya tarde, en una fiesta. Que tontería haberlo olvidado.",
+                            "privateFact": false
+                        }
+                    ],
+                    "extraInfo": ""
+                },
+                {
+                    "name": "Ivonde B. Alhone",
+                    "character_id": 2,
+                    "facts": [
+                        {
+                            "shortText": "Mallisa se desplomó mientras tomaba Champagne",
+                            "text": "Hace un año, después de la ceremonia en que se grabaron las huellas de Tat en el cemento, sobre las 7:00 de la tarde, Powar, Seldon y tú sacasteis a Mallisa inconsciente del camerino de Tat y siguiendo instrucciones de Powar, la llevasteis al bungalow de Stu. Mallisa se desplomó mientras tomaba Champagne.",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Guion de la escena de Mallisa y Stu",
+                            "text": "El rodaje de \"Powar and Greede\" fue por supuesto una experiencia inusual, el excelente guión de Hack lo convertía en suspense. Algunas de las escenas eran angustiosas, como la del dormitorio entre Stu (interpretado por Stu) y Mallisa (interpretada por Heidi). Tú tienes el guión y debes compartir esta escena con el grupo en este acto.",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Secreto de Tat a Mallisa",
+                            "text": "Después de la grabación de las huellas de Tat, cuando ella se cambió de traje os invitó a Powar, Seldon y a tí a que pasarais a su camerino. Os quedasteis sorprendidos al encontrar allí a Mallisa excitada como si acabara de realizar algo espectacular. Oiste cómo Tat le decía en secreto a Mallisa, \"No digas ni una palabra\". Mallisa sonrió perversamente y dijo: \"Por supuesto que no, querida\". Lo curioso es, que después de una o dos copas de Champagne, Mallisa se desplomó.",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Encuentro preocupante entre Hack y Denise",
+                            "text": "Esta tarde, sobre las 2:30, estabas tomando un bocadillo en el bar del Estudio cuando viste entrar a Hack corriendo hacia Denise que estaba sentada cerca de tf. Hack estaba pálido y con la mirada ida. Susurró algo al oído de Denise y ella también se puso pálida. Se fueron corriendo, juntos, sin decir palabra a nadie.",
+                            "privateFact": false
+                        }
+                    ],
+                    "extraInfo": ""
+                },
+                {
+                    "name": "Savoy R. Fayre",
+                    "character_id": 4,
+                    "facts": [
+                        {
+                            "shortText": "Critica de Mallisa",
+                            "text": "Mallisa criticó abiertamente tu actuación después de \"The Butler, Diddit\", diciendo que ella no volvería a trabajar contigo otra vez. ¡Qué zorra!",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Mentira sobre la noche de la muerte de Mallisa",
+                            "text": "Tú has dicho que pasaste con Hack toda la noche en que Mellisa fue acribillada a balazos. Es mentira, lo sabes.",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Reacio a la escena de muerte de Mallisa",
+                            "text": "Eras reacio a que se rodara una escena concreta de la película, la escena final en la que Mallisa era acribillada a balazos.",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Escena de la meurte de Mallisa",
+                            "text": "El rodaje de \"Powar and Greede\" fue una extraordinaria experiencia. En primer lugar, tú representaste tu propio papel, algo que encontraste difícil de hacer. En segundo lugar, cuando leiste el guión viste que tú mismo, hacías el papel de sospechoso de disparar a Mallisa. Expresaste tu disconformidad a Hack, pero él sólo dijo: \"Eres sencillamente uno más, Savoy\". En ese momento no te diste cuenta de lo que realmente quería decir con ello, pero lo averiguaste más tarde.",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Problemas de Seldon con Mallisa",
+                            "text": "El guión que Hack preparó para \"Powar and Greede\" te recordó sin embargo, lo rencorosa que podía ser Mallisa. Ella parecía tener influencias sobre Powar y usaba esto para favorecer su carrera a costa de otros. Powar te dijo que, después de \"Tequila Mockingbird\" ella no quería volver a actuar bajo la dirección de Seldon, argumentando que: \"Es demasiado estrecho de mente\". Seldon se enfureció cuando oyó estos comentarios.",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Conflicto en el rodaje entre Hack, Denise y Powar",
+                            "text": "Durante el rodaje de \"Powar and Greede\" recuerdas estar paseando, cuando al pasar por la sala de montaje oiste a Denise y Hack gritando a Powar: \"Has arruinado deliberadamente esa toma!\" Denise gritaba: \"Eso no te va a traer nada bueno\". Hack añadió: \"porque vamos a volver a hacer la toma\". Powar estaba en silencio pero apenas parecía arrepentido.",
+                            "privateFact": false
+                        }
+                    ],
+                    "extraInfo": ""
+                },
+                {
+                    "name": "Seldom V. Lloyd",
+                    "character_id": 5,
+                    "facts": [
+                        {
+                            "shortText": "Amenazas de Powar y vinculacion con la muerte de Mallisa",
+                            "text": "Powar te forzó a cooperar en \"Powar and Greede\" amenazándote con contar a la policía tu vinculación con la muerte de Mallisa. Esperemos que estos hechos no salgan a la luz.",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Desmayo de Mallisa",
+                            "text": "Hace un año, después de la grabación en cemento de las huellas de Tat, Powar, Ivonde y tú sacasteis a Mallisa inconsciente del camerino de Tat, serían las 7:00 de la tarde. Mallisa se desplomó mientras bebía champagne. Powar insistió para que la llevarais al bungalow de Stu.",
+                            "privateFact": true
+                        },
+                        {
+                            "shortText": "Conflictos en el rodaje",
+                            "text": "El rodaje de\"Powar and Greede\" fue una extraña experiencia para ti, apareciste más como actor que como director. Al principio dudaste del proyecto, pero Powar te persuadió para que lo aceptaras. Resultó divertido el que Denise y Hack, en vez de tú, fueran los que tuvieran que enfrentarse a los constantes conflictos con Powar. Ocurrieron muchas desgracias en el plató, y no todas debidas a la inexperiencia del director. Una vez se rodaron varias escenas sin película en las cámaras, cuando esto se descubrió, Denise se volvió hacia Powar y dijo: \"Te estoy avisando\", Powar pareció extraordinariamente manso y no dijo nada.",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Arrogancia de Mallisa y su conflicto con Savoy",
+                            "text": "Mallisa fue una de esas estrellas que no pudieron disfrutar el éxito. En un principio era fácil trabajar con ella, pero después de conseguir uno o dos papeles importantes, se volvió muy exigente y criticona con los otros actores, incluso con aquellos que tenían mucha más experiencia que ella. Después de \"The Butler, Diddit\", dijo a Powar, estando tu delante: \"No quiero trabajar nunca más con Savoy. Él es simplemente incapaz de estar a mi nivel\". Cuando se lo contaste a Savoy éste se enfureció.",
+                            "privateFact": false
+                        },
+                        {
+                            "shortText": "Conflicto de Mallisa con Tat",
+                            "text": "El año pasado después de la grabación de huellas de Tat -la noche en que murió Mallisa- fuiste invitado por Tat a tomar una copa de champagne en su camerino. Allí también estaban Ivonde, Powar y Mallisa. Los comentarios de Mallisa fueron realmente impropios. Ella insinuó que Tat había estado bebida toda la tarde y se maravillaba de que lo hubiera estado durante toda la ceremonia, Mallisa si que había bebido demasiado y se desplomó después de unas cuantas copas de más.",
+                            "privateFact": false
+                        }
+                    ],
+                    "extraInfo": ""
+                }
+            ]
+        }
+    ]
 }

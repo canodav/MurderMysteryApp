@@ -1,14 +1,12 @@
 import express from 'express';
-import { createGame } from '../controllers/game';
+import { createGame } from './game.controller';
 const router = express.Router();
 
 
-router.get('/', (_req, res) => {
-    res.send('Game route');
-})
+router.post('/', createGame)
 
 router.get('/:id', (req, res) => {
-
+    console.log("Game id: " + req.params.id);
     res.send("Game id: " + req.params.id);
 })
 
