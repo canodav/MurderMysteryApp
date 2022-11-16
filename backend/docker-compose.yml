@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  web: 
+    container_name: murdermysteryapp_backend
+    restart: always
+    build: .
+    ports:
+      - "5000:3000"
+    links:
+      - db
+  db:
+    container_name: murdermysteryapp_db
+    image: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data/db:/data/db

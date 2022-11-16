@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev" : "ts-node-dev src/index.ts",
+    "dev": "ts-node-dev src/index.ts",
     "tsc": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node build/index.js"
+    "start": "tsc && node build/index.js"
   },
   "author": "",
   "license": "ISC",

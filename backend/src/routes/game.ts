@@ -1,5 +1,5 @@
 import express from 'express';
-import { createGame, getGame } from '../services/game/game';
+import { createGame } from '../controllers/game';
 const router = express.Router();
 
 
@@ -8,8 +8,8 @@ router.get('/', (_req, res) => {
 })
 
 router.get('/:id', (req, res) => {
-    const game = getGame(Number(req.params.id));
-    res.send(game);
+
+    res.send("Game id: " + req.params.id);
 })
 
 export default router;
