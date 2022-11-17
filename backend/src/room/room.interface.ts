@@ -3,6 +3,7 @@ import { Game } from "../game/game.interface";
 export interface Room{
     id: number;
     players: Array<User>;
-    game: Game;
+    game: Game | null;
     currentAct: number;
+    secretKey: string;
 }
