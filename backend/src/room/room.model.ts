@@ -26,5 +26,10 @@ export const Room = db.define("room", {
 
 
 
-Room.hasMany(User, {foreignKey: 'roomId'});
+Room.hasMany(User, {foreignKey: {
+    name: 'roomId',
+    allowNull: true,
+}});
+
+export default Room;
 

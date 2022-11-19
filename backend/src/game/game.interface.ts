@@ -6,4 +6,5 @@ export interface Game{
     description: string,        
     characters: Array<Character>,
     acts: Array<Act>,
+    thumbnail: string
 }

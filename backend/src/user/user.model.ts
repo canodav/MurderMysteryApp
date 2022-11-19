@@ -28,6 +28,7 @@ export const User = db.define("user", {
         type: DataTypes.INTEGER,
         allowNull: true,
     },
+
 });
 
 

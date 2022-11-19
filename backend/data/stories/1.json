@@ -1,6 +1,7 @@
 {
     "id": 1,
-    "name": "Powar and Greede",
+    "name": "Aquí llega Condemor, el pecador de la pradera",
+    "thumbnail": "thumbnail_1.png",
     "characters": [
         {
             "id": 0,
@@ -42,12 +43,6 @@
             "id": 6,
             "name": "Stuart Dyron",
             "description": "Sus fans le llaman \"Stu\". Dyron es la encarnación del actor alto, moreno y atractivo. Comenzó su carrera como doble, pero debido a su físico pronto empezó a interpretar papeles en westerns como, \"The Dark Side of the Horse\" y \"Treasure of C. Arram Audrey\". En su primer papel protagonista, Dyron actuaba como co-protagonista con Mellisa Ann Greede en \"Tequila Mockingbird\".",
-            "characterIntroductionStory": " TODO: Add story"
-        },
-        {
-            "id": 7,
-            "name": "Tatyana \"Tat\" Eltale",
-            "description": "El público la conoce como \"Tat\". Siendo una famosa actriz, se retiró para convertirse en comentarista de páginas sociales. Recientemente le han ofrecido un programa en la radio. En Hollywood, todo el mundo lamentó su decisión de abandonar su carrera como actriz. Sin embargo, Tatyana dijo una vez: \"Soy comentarista de páginas sociales en primer lugar y actriz en segundo\".",
             "characterIntroductionStory": " TODO: Add story"
         }
     ],

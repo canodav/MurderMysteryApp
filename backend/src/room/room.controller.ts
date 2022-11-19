@@ -4,10 +4,9 @@ import { createRoomService, getRoomService } from "./room.services";
 import { Request, Response } from "express";
 
 export const createRoom = async (req: Request, res: Response) => {
-    const { name, email } = req.body; 
-    const user = {name, email};
-    const roomInfo: object = await createRoomService(user);
-    return res.status(200).json(roomInfo);
+    const game = req.body.gameId;
+    const roomInfo: object = await createRoomService(game);
+    res.status(200).json(roomInfo);
 }
 
 export const getRoom = async (req: Request, res: Response) =>{
