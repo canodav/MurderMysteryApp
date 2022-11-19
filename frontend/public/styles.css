@@ -1,0 +1,131 @@
+#root {
+  width: 100%;
+  height: 100vh; }
+
+.App {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 700px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../public/assets/img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Sono", sans-serif;
+  position: relative; }
+  .App > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; }
+
+#app-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex: 1; }
+
+#app-content {
+  flex: 5;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem; }
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.btn {
+  background: none;
+  padding: 1rem;
+  border: 2px solid black; }
+
+#home {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  #home .home-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 2;
+    width: 100%;
+    padding: 0 2rem; }
+    #home .home-header .login-btn {
+      align-self: end; }
+    #home .home-header #logo {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end; }
+      #home .home-header #logo img {
+        object-fit: contain;
+        width: 100%;
+        max-width: 300px;
+        max-height: 300px; }
+  #home #app-content {
+    width: 100%;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    #home #app-content .homepage-menu {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      #home #app-content .homepage-menu ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem; }
+        #home #app-content .homepage-menu ul li {
+          display: flex; }
+          #home #app-content .homepage-menu ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 1rem; }
+
+.login-form {
+  display: flex;
+  flex-direction: column; }
+
+* {
+  color: blue; }
+
+.story-button {
+  display: flex;
+  gap: 2rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  max-width: 600px; }
+  .story-button .thumbnail {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex: 1;
+    aspect-ratio: 1; }
+    .story-button .thumbnail img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .story-button .story-info {
+    flex: 5;
+    padding: 1rem; }
