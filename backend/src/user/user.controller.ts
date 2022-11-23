@@ -7,7 +7,6 @@ export const createUser = async (req: Request, res: Response) => {
     const user = await createUserService(username, email, null, false, null);
     console.log(user);
     res.send(user);
-  
 }
 
 export const getUser = async (_req: Request, _res: Response) =>{

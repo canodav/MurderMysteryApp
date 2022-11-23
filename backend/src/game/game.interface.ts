@@ -7,4 +7,5 @@ export interface Game{
     characters: Array<Character>,
     acts: Array<Act>,
     thumbnail: string
+    // TODO Add min and max players
 }

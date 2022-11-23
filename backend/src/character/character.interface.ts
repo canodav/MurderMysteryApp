@@ -4,4 +4,6 @@ export interface Character{
     name: string,
     description: string,
     characterIntroductionStory: CharacterStory | null,
+    important: boolean,
+    thumbnail: string | null,
 }

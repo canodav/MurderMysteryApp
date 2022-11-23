@@ -1,52 +1,76 @@
 {
     "id": 1,
     "name": "Aquí llega Condemor, el pecador de la pradera",
+    "description": "test",
     "thumbnail": "thumbnail_1.png",
+    "min_players": 3,
+    "max_players": 8,
     "characters": [
         {
             "id": 0,
             "name": "Denise N. Dayer",
             "description": "Denise es una joven actriz que aún no ha recibido el reconocimiento que se merece. Pero todo es cuestión de tiempo dado su obvio talento y su gran belleza. Para estar cerca de la acción, encontró un trabajo en los Estudios Powar como ayudante de producción, trabajando así con los más importantes directores de la Industria Cinematográfica, destacando Seldom V. Lloyd y Phil M. Archer. Denise ha demostrado poseer una notable aptitud para dirigir.",
-            "characterIntroductionStory": " TODO: Add story"
+            "characterIntroductionStory": "TODO: Add story",
+            "thumbnail": "character_0.jpg",
+            "important": true
         },
         {
             "id": 1,
             "name": "Heidi Voltaje",
             "description": "Es una de las más recientes estrellas de los Estudios Powar, descubierta por el mismo W. Anton Powar. Empezó realizando un pequeño papel en una reciente película de Powar, \"Lay of the Land\". Aún así los aficionados al cine de todo el país quedaron maravillados. Un crítico comentó: \"Hi Voltaje y los Estudios Powar descubren un nuevo campo\". Su apodo es \"Hi\".",
-            "characterIntroductionStory": " TODO: Add story"
+            "characterIntroductionStory": " TODO: Add story",
+            "thumbnail": "character_1.jpg",
+            "important": true
         },
         {
             "id": 2,
             "name": "Ivonde B. Alhone",
             "description": "Una actriz nacida en Suecia, destinada al éxito por su gran belleza y su innata habilidad para la interpretación. Sel U. Lloyd la descubrió en \"War and Pizza\", una barata producción italiana. La llevó a los EE.UU. y le dio el papel principal en \"Daze of Wynan Rosas\" con Savoy R. Fayre. Es una de las más encantadoras estrellas de Hollywood.",
-            "characterIntroductionStory": " TODO: Add story"
+            "characterIntroductionStory": " TODO: Add story",
+            "thumbnail": "character_2.jpg",
+            "important": true
         },
         {
             "id": 3,
             "name": "Hackford Ryder",
             "description": "Sus amigos le llaman \"Hack\". Es uno de los mejores guionistas de Hollywood. Ha escrito varios guiones magníficos, destacando \"Goddess\", basado en la vida de Sola Sivius estrella del cine mudo. Saltar de una vida pobre y bohemia a la riqueza y la fama, no ha afectado a Hack. Sigue siendo el mismo chico práctico y realista que era antes de llegar a Hollywood.",
-            "characterIntroductionStory": " TODO: Add story"
+            "characterIntroductionStory": " TODO: Add story",
+            "thumbnail": "character_3.jpg",
+            "important": false
         },
         {
             "id": 4,
             "name": "Savoy R. Fayre",
             "description": "Por su puro y directo acento, su elegante atractivo y su cortesía británica, es uno de los galanes favoritos de Hollywood. Se dio a conocer con su interpretación de Amold en el clásico \"The Scarlet Pimp, Amold\"; pero su definitivo salto a la fama fue con el papel de mayordomo en la versión cinematográfica de \"The Butler Diddit. Savoy es cazador y tiene una excelente puntería, además de ser buen jugador de golf.",
-            "characterIntroductionStory": " TODO: Add story"
+            "characterIntroductionStory": " TODO: Add story",
+            "thumbnail": "character_4.jpg",
+            "important": false
         },
         {
             "id": 5,
             "name": "Seldom V. Lloyd",
             "description": "Sus amigos íntimos le llaman \"Sel\". Es uno de los mejores directores de Hollywood y le avala un extenso currículum de éxitos cinematográficos. Su prestigio es tan grande que actores y actrices compiten por trabajar con él. Sus películas galordonadas \"Daze of Wynan Rosas\", \"Tequila Mockingbird\" y \"The Butler, Diddit\" supusieron para Ivonde B. Alohne y para Mellisa Ann Greede el salto al estrellato.",
-            "characterIntroductionStory": " TODO: Add story"
+            "characterIntroductionStory": " TODO: Add story",
+            "thumbnail": "character_5.jpg",
+            "important": false
         },
         {
             "id": 6,
             "name": "Stuart Dyron",
             "description": "Sus fans le llaman \"Stu\". Dyron es la encarnación del actor alto, moreno y atractivo. Comenzó su carrera como doble, pero debido a su físico pronto empezó a interpretar papeles en westerns como, \"The Dark Side of the Horse\" y \"Treasure of C. Arram Audrey\". En su primer papel protagonista, Dyron actuaba como co-protagonista con Mellisa Ann Greede en \"Tequila Mockingbird\".",
-            "characterIntroductionStory": " TODO: Add story"
+            "characterIntroductionStory": " TODO: Add story",
+            "thumbnail": "character_6.jpg",
+            "important": false
+        },
+        {
+            "id": 7,
+            "name": "Tatyana \"Tat\" Eltale",
+            "description": "El público la conoce como \"Tat\". Siendo una famosa actriz, se retiró para convertirse en comentarista de páginas sociales. Recientemente le han ofrecido un programa en la radio. En Hollywood, todo el mundo lamentó su decisión de abandonar su carrera como actriz. Sin embargo, Tatyana dijo una vez: \"Soy comentarista de páginas sociales en primer lugar y actriz en segundo\".",
+            "characterIntroductionStory": " TODO: Add story",
+            "thumbnail": "character_7.jpg",
+            "important": false
         }
     ],
-    "description": "test",
     "acts": [
         {
             "id": 0,
@@ -294,12 +318,12 @@
                             "privateFact": false
                         },
                         {
-                            "shortText": "Reemplazo de Ivonde y Tat por Mallisa", 
+                            "shortText": "Reemplazo de Ivonde y Tat por Mallisa",
                             "text": "Entre otras cosas el rodaje de \"Powar and Greede\" consiguió que Ivonde regresara a la pantalla. Ella no había aparecido en ninguna película desde \"The Thick Man\", hace más de dos años, poco después de que Mallisa llegara a la ciudad. También Tat sólo hizo una película después de que Mallisa llegara, su película más conocida \"Goddess\". Era estupendo tenerlas a ambas de nuevo en la pantalla.",
                             "privateFact": false
                         },
                         {
-                            "shortText": "Noche de la muerte de Mallisa", 
+                            "shortText": "Noche de la muerte de Mallisa",
                             "text": "La noche en que Mallisa fue asesinada es para tí un poco confusa, ya que estuviste la mayor parte de la noche de copas con unos amigos. Aún estabas con resaca cuando Savoy te llamó a la mañana siguiente y te dijo que lo había pasado en grande contigo. Aunque no recordabas con claridad la noche anterior, te atreverías a asegurar que Savoy no estuvo contigo, excepto en alguna ocasión después de medianoche.",
                             "privateFact": false
                         }
@@ -431,7 +455,6 @@
                             "text": "El año pasado después de la grabación de huellas de Tat -la noche en que murió Mallisa- fuiste invitado por Tat a tomar una copa de champagne en su camerino. Allí también estaban Ivonde, Powar y Mallisa. Los comentarios de Mallisa fueron realmente impropios. Ella insinuó que Tat había estado bebida toda la tarde y se maravillaba de que lo hubiera estado durante toda la ceremonia, Mallisa si que había bebido demasiado y se desplomó después de unas cuantas copas de más.",
                             "privateFact": false
                         }
-                        
                     ],
                     "extraInfo": ""
                 }

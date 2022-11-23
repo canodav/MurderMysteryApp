@@ -4,6 +4,8 @@ import { Header } from "./components/Header";
 import { CreateGame } from "./pages/CreateGame";
 import { Home } from "./pages/Home";
 import { LoginForm } from "./pages/LoginForm";
+import { NumPlayerForm } from "./pages/NumPlayerForm";
+import { PlayerCharacterForm } from "./pages/PlayerCharacterForm";
 
 function App() {
     return (
@@ -13,6 +15,9 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/create-game" element={<CreateGame />} />
                     <Route path="/login" element={<LoginForm />} />
+                    <Route path="/num-players" element={<NumPlayerForm />} />
+                    <Route path="/players-character-form" element={<PlayerCharacterForm />} />
+
                 </Routes>
             </BrowserRouter>
         </div>

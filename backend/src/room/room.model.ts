@@ -21,7 +21,10 @@ export const Room = db.define("room", {
         type: DataTypes.STRING,
         allowNull: false,
     },
-
+    num_players: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+    }
 });
 
 

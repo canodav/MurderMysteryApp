@@ -27,7 +27,7 @@ export const LoginForm = () => {
                     setError(json.error);
                 } else {
                     localStorage.setItem("token", json.email);
-                    //navigate("/")
+                    navigate("/");
                 }
             });
     };

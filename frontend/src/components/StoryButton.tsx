@@ -1,4 +1,5 @@
 import {Game} from "../interfaces";
+import {useNavigate} from "react-router-dom";
 
 interface StoryButtonProps {
     story: Game;
@@ -6,17 +7,12 @@ interface StoryButtonProps {
 
 
 export const StoryButton = (props: StoryButtonProps) => {
+    const navigate = useNavigate();
     const handleClick = () => {
         console.log("Clicked!" + props.story.id);
-        fetch("http://localhost:4000/api/room/", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify({
-                gameId: props.story.id,
-            }),
-        })
+
+        localStorage.setItem("gameId", props.story.id);
+        navigate("/num-players", {state: {min_players: props.story.min_players, max_players: props.story.max_players}});
     };
     return (
         <div className="story-button" onClick={handleClick}>
@@ -26,7 +22,7 @@ export const StoryButton = (props: StoryButtonProps) => {
            <div className="story-info">
                 <h6>{props.story.title}</h6>
                 <p>{props.story.description}</p>
-                <p>{props.story.num_players} players</p>
+                <p>Min players: {props.story.min_players} / Max:players: {props.story.max_players}</p>
            </div>
         </div>
     );

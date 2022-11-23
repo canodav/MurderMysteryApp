@@ -1,5 +1,6 @@
 import {  DataTypes } from "sequelize";
 import db from "../utils/database";
+import Character from "../character/character.model";
 
 // Create a model for the game
 export const Game = db.define("game", {
@@ -14,8 +15,12 @@ export const Game = db.define("game", {
     description: {
         type: DataTypes.STRING,
         allowNull: false,
+    },// TODO Add min and max players
+    min_players: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
     },
-    num_players: {
+    max_players: {
         type: DataTypes.INTEGER,
         allowNull: false,
     },
@@ -24,5 +29,10 @@ export const Game = db.define("game", {
         allowNull: false,
     },
 });
+
+Game.hasMany(Character, {foreignKey: {
+    name: 'gameId',
+    allowNull: true,
+}});
 
 export default Game;

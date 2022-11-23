@@ -17,6 +17,7 @@ import userRoutes from "./user/user.routes";
         console.log(process.env.DB_HOST)
         await db.authenticate();
         await db.sync();
+        console.log("Database connected");
 
         console.log("Database connection established");
     } catch (error) {

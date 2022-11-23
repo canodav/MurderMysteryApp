@@ -7,10 +7,16 @@ import { Game } from "../interfaces";
 
 
 export const CreateGame = () => {
-    //const navigate = useNavigate();
     const [games, setGames] = useState([] as Game[]);
+    
+    const navigate = useNavigate();
 
     useEffect(() => {
+        if(!localStorage.getItem('token')) {
+            console.log("No token found");
+            navigate('/login');
+        }
+
         fetch("http://localhost:4000/api/game", {
             method: "GET",
         })
@@ -20,11 +26,7 @@ export const CreateGame = () => {
                 setGames(json);
             });
 
-            //localStorage.getItem("token") ? navigate("/create-game") : navigate("/login");
-    },[]);
-
-
-
+    }, []);
 
     return (
         <div>

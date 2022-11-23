@@ -6,4 +6,5 @@ export interface Room{
     game: Game | null;
     currentAct: number;
     secretKey: string;
+    num_players: number;
 }

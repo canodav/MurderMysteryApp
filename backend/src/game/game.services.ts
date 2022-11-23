@@ -1,7 +1,7 @@
 import { Game } from "../game/game.interface";
 import { createCharacterStory } from "../characterstory/characterstory.services";
 import { createFact } from "../fact/fact.services";
-import { createCharacter } from "../character/character.services";
+import { createCharacter, storeCharacters } from "../character/character.services";
 import { createAct } from "../act/act.services";
 
 import { Act } from "../act/act.interface";
@@ -10,9 +10,11 @@ import { Fact } from "../fact/fact.interface";
 import { CharacterStory } from "../characterstory/characterstory.interface";
 
 import { Game as GameModel } from "./game.model";
+import {Character as CharacterModel} from "../character/character.model";
 
 import story_0 from "../../data/stories/0.json";
 import story_1 from "../../data/stories/1.json";
+
 
 let stories = [story_0, story_1];
 
@@ -45,7 +47,8 @@ export const getGames = async (): Promise<Game[]> => {
             characters: [],
             acts: [],
             thumbnail: game.dataValues.thumbnail,
-            num_players: game.dataValues.num_players,
+            min_players: game.dataValues.min_players,
+            max_players: game.dataValues.max_players,   
         };
     });
     return games;
@@ -55,8 +58,9 @@ export const storeGame = async (
     id: number,
     title: string,
     description: string,
-    characters: Array<Character>,
-    thumbnail: string
+    thumbnail: string,
+    min_players: number,
+    max_players: number
 ) => {
     // Upload game into database
     try {
@@ -68,8 +72,9 @@ export const storeGame = async (
                 id,
                 title,
                 description,
-                num_players: characters.length,
                 thumbnail,
+                min_players,
+                max_players,
             });
             console.log("Game inserted into database" + gameToInsertDB);
         }
@@ -79,13 +84,16 @@ export const storeGame = async (
 };
 
 export const uploadGames = (): Game[] => {
-    function mapCharacters(characters: Array<any>): Array<Character> {
+    function mapCharacters(characters: Array<any>, storyId: number): Array<Character> {
         return characters.map((character) => {
+            console.log(character, storyId);
             return createCharacter(
                 character.id,
                 character.name,
                 character.description,
-                null
+                null,
+                character.important,
+                character.thumbnail
             );
         });
     }
@@ -117,7 +125,7 @@ export const uploadGames = (): Game[] => {
     }
 
     const games = stories.map((story) => {
-        const characters = mapCharacters(story.characters);
+        const characters = mapCharacters(story.characters, story.id);
         const acts = mapActs(story.acts);
         return createGame(
             story.id,
@@ -128,15 +136,53 @@ export const uploadGames = (): Game[] => {
             story.thumbnail
         );
     });
+
+
     stories.forEach(async (story) => {
         const stored = await storeGame(
             story.id,
             story.name,
             story.description,
-            mapCharacters(story.characters),
-            story.thumbnail
+            story.thumbnail,
+            story.min_players,
+            story.max_players
         );
         console.log(stored);
+        story.characters.forEach(async (character) => {
+            storeCharacters(character.id, story.id, character.name, character.description, null, character.important, character.thumbnail);
+        });
     });
     return games;
+};
+
+export const getGameCharacters = async (gameId: number, numCharacters: number): Promise<Character[]> => {
+    // Get characters from database
+    const charactersDb = await CharacterModel.findAll({
+        where: { gameId: gameId },
+    });
+
+    const characters = charactersDb.map((character) => {
+        return {
+            id: character.dataValues.id,
+            name: character.dataValues.name,
+            description: character.dataValues.description,
+            characterIntroductionStory: null,
+            important: character.dataValues.important,
+            thumbnail: character.dataValues.thumbnail,
+        };
+    });
+
+    var selectedCharacters = characters.filter((character) => character.important);
+
+    // If there are not enough important characters, add random characters
+    if (selectedCharacters.length < numCharacters) {
+        var randomCharacters = characters.filter(
+            (character) => !character.important
+        );
+        randomCharacters = randomCharacters.sort(() => Math.random() - 0.5);
+        randomCharacters = randomCharacters.slice(0, numCharacters - selectedCharacters.length);
+        selectedCharacters = selectedCharacters.concat(randomCharacters);
+    }
+
+    return selectedCharacters;
 };
