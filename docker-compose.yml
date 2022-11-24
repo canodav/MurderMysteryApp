@@ -12,16 +12,16 @@ services:
     links:
       - db
 
-  frontend:
-    container_name: murdermysteryapp-frontend
-    restart: always
-    build: ./frontend
-    ports:
-      - "5000:5000"
-    volumes:
-      - ./frontend:/usr/src/app
-    stdin_open: true
-    tty: true
+  #frontend:
+  #  container_name: murdermysteryapp-frontend
+  #  restart: always
+  #  build: ./frontend
+  #  ports:
+  #    - "5000:5000"
+  #  volumes:
+  #    - ./frontend:/usr/src/app
+  #  stdin_open: true
+  #  tty: true
     
   db:
     container_name: murdermysteryapp_db
@@ -36,6 +36,15 @@ services:
       - MYSQL_PASSWORD=root
     volumes:
       - ./data-db:/var/lib/mysql
+
+  nginx-react:
+    container_name: ngixreactapp
+    build: ./frontend
+    ports:
+      - 80:80
+    environment:
+      NODE_ENV: production
+
 volumes:
   db-data: {}
 
