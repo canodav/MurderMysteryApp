@@ -1,13 +1,23 @@
 import { useState } from "react";
+import { PlayersContext } from "../providers/PlayersProvider";
+import { useContext } from "react";
+import { useEffect } from "react";
 
 export const PlayerCharacter = (props) => {
-    console.log(props);
 
     const [selected, setSelected] = useState('');
 
+    const {players, setAllPlayers}  = useContext(PlayersContext);
 
     const handleChange = (event) => {
         setSelected(event.target.value);
+        const newPlayers = players.map((player) => {
+            if (player.id == parseInt(event.target.value)) {
+                player.character = props.character;
+            }
+            return player;
+        })
+        setAllPlayers(newPlayers);
     };
 
     return (
@@ -25,9 +35,8 @@ export const PlayerCharacter = (props) => {
             <select value={selected} onChange={handleChange} >
                 <option disabled={true} value="">--Choose and option--</option>
                 {
-                props.players.map((player) => {
+                players.map((player) => {
                     return(
-                        // if player is not already selected
                         <option key={player.id} value={player.id}>{player.email}</option>
                     )
                 })

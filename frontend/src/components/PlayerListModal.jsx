@@ -1,48 +1,31 @@
 import { FaTimes } from "react-icons/fa"
 
 import { useEffect, useState } from "react";
+import { PlayersContext } from "../providers/PlayersProvider";
+import { useContext } from "react";
 
-export const PlayerListModal = ({ handleConfirm = (event, players) => { } }) => {
-
-    const [players, setPlayers] = useState([]);
+export const PlayerListModal = () => {
+    const { players, addPlayer, removePlayer, setAllPlayers }  = useContext(PlayersContext);
     const [showModal, setShowModal] = useState(false);
-
-
-    const addPlayer = (player) => {
-        setPlayers([...players, player]);
-    }
-
-    useEffect(() => {
-        console.log(players);
-    }, [players]);
 
     const handleInputChange = (e) => {
         const { name, value, id } = e.target;
-        const changePlayers = players
-        changePlayers.forEach(player => {
+        const newPlayers = players.map((player) => {
             if (player.id == parseInt(id)) {
                 player.email = value;
             }
+            return player;
         })
+        setAllPlayers(newPlayers);
     };
 
-    const handleRemovePlayer = (e) => {
-        const id  = e.currentTarget.getAttribute("data-key")
-        if(id){
-            const changePlayers = players
-            const newPlayers = changePlayers.filter(player => player.id != parseInt(id))
-            console.log(newPlayers);
-            setPlayers(newPlayers);
-        }
-    }
+    const players_email = players.map((player) => player.email);
+
 
     return (
         <div className="player-list-modal">
             <div>
-                <button onClick={event => {
-                    handleConfirm(event, players)
-                    setShowModal(!showModal)
-                }} >Close and confirm</button>
+                <button onClick={() => { setShowModal(!showModal) }} >Close and confirm</button>
             </div>
             <div className="modal" style={{ display: showModal ? "flex" : "none" }}>
                 <div className="modal-content">
@@ -56,7 +39,7 @@ export const PlayerListModal = ({ handleConfirm = (event, players) => { } }) => 
                                     return (
                                         <div className="player" key={player.id} data-key={player.id} >
                                             <input type="text" name="email" id={player.id.toString()} defaultValue={player.email} onChange={handleInputChange} />
-                                            <button onClick={(e) => handleRemovePlayer(e)} data-key={player.id} >
+                                            <button onClick={(e) => removePlayer(player.id)} data-key={player.id} >
                                                 <FaTimes />
                                             </button>
                                         </div>
@@ -64,7 +47,7 @@ export const PlayerListModal = ({ handleConfirm = (event, players) => { } }) => 
                                 })
                             }
                         </div>
-                        <button onClick={() => addPlayer({ id: players.length + 1, email: "" })}>Add player</button>
+                        <button onClick={() => addPlayer({ id: players.length + 1, email: "" , character: undefined})}>Add player</button>
                     </div>
                 </div>
             </div>

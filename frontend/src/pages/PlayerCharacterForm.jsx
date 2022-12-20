@@ -1,25 +1,18 @@
 import { Header } from "../components/Header";
 import { PlayerListModal } from "../components/PlayerListModal";
 import { useNavigate, useLocation, json } from "react-router-dom";
-import { useEffect, useState } from "react";
-import { PlayerCharacter } from "../components/PlayerCharacter";
+import { useEffect, useState, useContext } from "react";
+import { PlayersProvider } from "../providers/PlayersProvider";
+import { PlayerCharacterList } from "../components/PlayerCharacterList";
+
 
 export const PlayerCharacterForm = () => {
     const { state } = useLocation();
     const { gameId, numPlayers } = state;
 
     const [characters, setCharacters] = useState([]);
-    const [players, setPlayers] = useState([]);
 
     const navigate = useNavigate();
-
-    const createPlayer = (e) => {
-        e.preventDefault();
-    };
-
-    const handlePlayerChange = (event, players) => {
-        setPlayers(players);
-    };
 
     useEffect(() => {
         if (!localStorage.getItem("token")) {
@@ -27,42 +20,28 @@ export const PlayerCharacterForm = () => {
             navigate("/login");
         }
 
-        fetch(
-            `http://localhost:4000/api/game/${gameId}/characters/${numPlayers}`,
-            {
-                method: "GET",
-            }
-        )
+        fetch(`http://localhost:4000/api/game/${gameId}/characters/${numPlayers}`, {
+            method: "GET",
+        })
             .then((response) => response.json())
             .then((json) => {
                 setCharacters(json);
-            });
-    }, []);
+            })
+        }, []);
 
-    useEffect(() => {}, [players]);
 
     return (
         <div>
             <Header />
-            <PlayerListModal handleConfirm={handlePlayerChange} />
-            <div id="app-content">
-                <div className="page-header">
-                    <h3>Select your character</h3>
+            <PlayersProvider>
+                <PlayerListModal/>
+                <div id="app-content">
+                    <div className="page-header">
+                        <h3>Select your character</h3>
+                    </div>
+                    <PlayerCharacterList characters={characters} />
                 </div>
-                <div className="player-character-form">
-                    {characters.map((character) => {
-                        const char = {
-                            id: character.id,
-                            name: character.name,
-                            description: character.description,
-                            thumbnail: `${gameId}/` + character.thumbnail,
-                        };
-                        return (
-                            <PlayerCharacter key={character.id} character={char} players={players} />
-                        );
-                    })}
-                </div>
-            </div>
+            </PlayersProvider>
         </div>
     );
 };
